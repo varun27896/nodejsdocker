@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req,res) => {
-    res.send("Coming from a Docker Image.");
+    res.send("Coming from a Docker Image. edited version with workdir changes");
 });
 
 app.listen(8080, () => {
